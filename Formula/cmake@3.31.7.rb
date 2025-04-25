@@ -1,10 +1,8 @@
-class CmakeAT3316 < Formula
+class CmakeAT3317 < Formula
   desc "Cross-platform make"
   homepage "https://www.cmake.org/"
-  url "https://github.com/Kitware/CMake/releases/download/v3.31.6/cmake-3.31.6.tar.gz"
-  mirror "http://fresh-center.net/linux/misc/cmake-3.31.6.tar.gz"
-  mirror "http://fresh-center.net/linux/misc/legacy/cmake-3.31.6.tar.gz"
-  sha256 "653427f0f5014750aafff22727fb2aa60c6c732ca91808cfb78ce22ddd9e55f0"
+  url "https://github.com/Kitware/CMake/releases/download/v3.31.7/cmake-3.31.7.tar.gz"
+  sha256 "a6d2eb1ebeb99130dfe63ef5a340c3fdb11431cce3d7ca148524c125924cea68"
   license "BSD-3-Clause"
   head "https://gitlab.kitware.com/cmake/cmake.git", branch: "master"
 
