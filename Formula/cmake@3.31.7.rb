@@ -14,6 +14,13 @@ class CmakeAT3317 < Formula
     regex(/href=.*?cmake[._-]v?(\d+(?:\.\d+)+)\.t/i)
   end
 
+  bottle do
+    root_url "https://github.com/performous/homebrew-pinned_cmake3/releases/download/cmake@3.31.7-3.31.7"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "d2a7b19724b4fb3ecb8f1e0a64b5f6be38906cb8de1c490d757763343943da5e"
+    sha256 cellar: :any_skip_relocation, ventura:       "4cc298b9246f48ae9ef89e8a895a50f28af331f72f7c83603d54be38353160fb"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "ffdf4a7c63aab6e187ac416c96221f248d1bed0f6c052fcc50fbec09bd498369"
+  end
+
   uses_from_macos "ncurses"
 
   on_linux do
